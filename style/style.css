@@ -3,10 +3,6 @@ header{
     color: white;
 }
 
-.container{
-    border: 1px solid magenta;
-}
-
 #main-first-section{
     background-color: #1ABC9C;
 }
@@ -19,16 +15,16 @@ header{
     height: 30rem;
 }
 
+#top-footer{
+    background-color: #3A546D;
+}
+
+#bottom-footer{
+    background-color: #2C3E50;
+}
+
 .container-cme{
     height: 30rem;
-}
-
-*.row{
-    border: 1px solid blue;
-}
-
-[class^=col- ]{
-    border: 1px solid black;
 }
 
 .my-width-img{
