@@ -1,23 +1,26 @@
 header{
-    
     background-color: #252D37 ;
     color: white;
 }
 
-.container-header{
+.container{
     border: 1px solid magenta;
-    padding: 2rem 0;
-}
-
-.container-top-section{
-    border:1px solid magenta;
 }
 
 #main-first-section{
     background-color: #1ABC9C;
 }
 
-#section-cards{
+#abouts{
+    background-color: #1ABC9C;
+}
+
+#contact-me{
+    height: 30rem;
+}
+
+.container-cme{
+    height: 30rem;
 }
 
 *.row{
@@ -29,6 +32,6 @@ header{
 }
 
 .my-width-img{
-    width: 15rem;
+    width: 50%;
 }
 
