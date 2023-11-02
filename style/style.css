@@ -1,6 +1,5 @@
-header{
+.my_bg-navbar{
     background-color: #252D37 ;
-    color: white;
 }
 
 #main-first-section{
@@ -11,9 +10,6 @@ header{
     background-color: #1ABC9C;
 }
 
-#contact-me{
-    height: 30rem;
-}
 
 #top-footer{
     background-color: #3A546D;
@@ -31,3 +27,6 @@ header{
     width: 50%;
 }
 
+  @media all screen and (max-width: 768px) {
+   
+  }
