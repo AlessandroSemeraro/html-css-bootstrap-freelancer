@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
+    
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <title>Bootstrap Freelancer</title>
 </head>
 <body>
+    <!--HEADER-->
     <header class="bg-dark ">
         <div class="container">
-            <nav class="navbar navbar-expand-md">
+            <nav class="navbar navbar-expand-md">    <!--NAV-->
                 <div class="container-fluid">
                   <a class="navbar-brand text-light" href="#">START BOOTSTRAP</a>
                   <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,42 +40,56 @@
             </nav>
         </div>    
     </header>
+    <!--END HEADER-->
+
+    <!--MAIN-->
     <main>
         <section id="main-first-section">
-            <div class="container container-top-section">
+            <div class="container container-top-section py-3">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-12 d-flex flex-column align-items-center col-md-8 col-lg-6">
+                    <div class="col-12 d-flex flex-column align-items-center">
                         <img class="my-width-img" src="./img/avatar.svg" alt="avatar picture">
-                        <h1 class="text-white text-uppercase fw-bolder">Start Boostrap</h1>
-                        <div></div>
-                        <p class="text-white text-uppercase"> Graphic artist - Web designer - Illustrator</p>
+                        <h1 class="text-white text-uppercase fw-bolder my-2">Start Bootsrap</h1>
+                        <div class="my_star d-flex align-items-center justify-content-center mb-2 text-center">
+                            <div class="my_star-line"></div>
+                            <div class="mx-2"><i class="fa-solid fa-star" style="color: #ffffff;"></i></div>
+                            <div class="my_star-line"></div>
+                        </div>
+                        <p class="text-white text-uppercase fs-6"> Graphic artist - Web designer - Illustrator</p>
                     </div>
                 </div>
             </div>
         </section>
         <section  id="section-cards">
-            <div class="container">
+            <div class="container py-4">
                 <div class="row">
-                    <div class="col12 d-flex justify-content-center">
-                        <h1>Portfolio</h1>
+                    <div class="col12">
+                        <div class="d-flex justify-content-center">
+                            <h1 class="text-uppercase fs-4 fw-normal">Portfolio</h1>
+                        </div>
+                        <div class="my_star d-flex align-items-center justify-content-center mb-2 text-center">
+                            <div class="my_star-line bg-dark"></div>
+                            <div class="mx-2"><i class="fa-solid fa-star" style="color: #000000;"></i></div>
+                            <div class="my_star-line bg-dark"></div>
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <img class="w-100" src="./img/cabin.png" alt="cabin pic">
+                    <div class="col-12 col-md-6 col-lg-4 p-2">
+                        <img class="w-100 rounded" src="./img/cabin.png" alt="cabin pic">
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <img class="w-100" src="./img/cake.png" alt="cake pic">
+                    <div class="col-12 col-md-6 col-lg-4 p-2">
+                        <img class="w-100 rounded" src="./img/cake.png" alt="cake pic">
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <img class="w-100" src="./img/circus.png" alt="circus pic">
+                    <div class="col-12 col-md-6 col-lg-4 p-2">
+                        <img class="w-100 rounded" src="./img/circus.png" alt="circus pic">
                     </div>
-                     <div class="col-12 col-md-6 col-lg-4">
-                        <img class="w-100" src="./img/game.png" alt="game pic">
+                     <div class="col-12 col-md-6 col-lg-4 p-2">
+                        <img class="w-100 rounded" src="./img/game.png" alt="game pic">
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <img class="w-100" src="./img/safe.png" alt="safe pic">
+                    <div class="col-12 col-md-6 col-lg-4 p-2">
+                        <img class="w-100 rounded" src="./img/safe.png" alt="safe pic">
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <img class="w-100" src="./img/submarine.png" alt="submarine pic">
+                    <div class="col-12 col-md-6 col-lg-4 p-2 ">
+                        <img class="w-100 rounded" src="./img/submarine.png" alt="submarine pic">
                     </div>
                 </div>
             </div>

@@ -24,9 +24,15 @@
 }
 
 .my-width-img{
-    width: 50%;
+    width: 15rem;
 }
 
-  @media all screen and (max-width: 768px) {
-   
-  }
+.my_star{
+    width: 100%;
+}
+
+.my_star-line{
+    height: 0.17rem;
+    width: 15%;
+    background-color: white;
+}
